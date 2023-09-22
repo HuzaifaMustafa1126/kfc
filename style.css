@@ -325,3 +325,85 @@ nav{
         text-transform: uppercase;
         cursor: pointer;
  }
+ footer{
+    background-color: #1C1816;
+ }
+ .first{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }
+ .social-icon{
+    display: flex;
+    gap: 1rem;
+ }
+ .social-icon i {
+    margin-top: 5px;
+    align-self: center;
+    background-color: #fff;
+    padding: 0.5rem 0.6rem;
+    border-radius: 100%;
+ }
+.bi-youtube{
+    transition: all;
+}
+.bi-youtube:hover{
+    color: red;
+}
+.bi-facebook{
+    transition: all;
+}
+.bi-facebook:hover{
+    color: blue;
+}.bi-instagram{
+    transition: all;
+}
+.bi-instagram:hover{
+    color: rgb(255, 0, 55);
+}
+.list{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+
+}
+.list ul{
+    color: #fff;
+    list-style: none;
+    font-size: large;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all;
+    margin-top: 10px;
+}
+.list ul li:hover{
+    color: #ea002a;
+    cursor: pointer;
+}
+.list ul li{
+    margin-bottom: 5px;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.last1{
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+.last2{
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bolder;
+    transition: all;
+}
+.last2:hover{
+    color: #ea002a;
+    cursor: pointer;
+}
