@@ -48,6 +48,7 @@ nav{
     border: none;
     border-radius: 5%;
     font-weight: bold;
+    cursor: pointer;
 }
 li{
     list-style: none;
@@ -57,7 +58,7 @@ li{
     font-weight: bold;
     font-size: larger;
     margin-left: 10px;
-    transition: all 0.5s;
+    transition: all 0.5s;cursor: pointer;
 }
 .bi-geo-alt-fill,.bi-box-seam-fill,.bi-list-ul{
     background-color:#ea002a;
